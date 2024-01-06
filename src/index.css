@@ -1,0 +1,43 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IRANYekanXFaNum;
+  src: url("./assets/fonts/IRANYekanXFaNum.ttf");
+}
+@font-face {
+  font-family: MorabbaBold;
+  src: url("./assets/fonts/Morabba-Bold.ttf");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  color: #213547;
+  background-color: #ffffff;
+
+}
+
+.persian-content{
+  direction: rtl;
+  font-family: "IRANYekanXFaNum", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.persian-bold{
+  font-family: "MorabbaBold", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+footer{
+  width: 100%;
+  font-size: 0.5rem;
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 300;
+}
+
+
+
+

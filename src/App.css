@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.fadeInText {
+  transition: opacity 3s ease;
+}
+
+.fadeOutText {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  transition: 500ms ease;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.prerequesties-card {
+  border: 1px solid #242424;
+  min-height: 300px;
+  color: #242424;
+  box-shadow: 2px 3px #242424;
+}
+
+.prerequesties-card:hover {
+  transition: 500ms;
+  background-color: #242424;
+  border: 1px solid #ccc;
+  min-height: 300px;
+  color: #fff;
+  box-shadow: 2px 3px #ccc;
+}
+
+.prerequesties-card-photo {
+  border: 1px solid #242424;
+  background-color: #242424;
+
+  color: rgba(255, 255, 255, 0.87);
+  box-shadow: 2px 3px #242424;
+}
+
+.prerequesties-card-info {
+  border: 1px solid #242424;
+  background-color: #242424;
+
+  color: rgba(255, 255, 255, 0.87);
+  box-shadow: 2px 3px #242424;
+}
+
+.titles {
+  color: rgba(255, 255, 255, 0.87);
+  border: 1px solid #242424;
+  box-shadow: 2px 3px #242424;
+  background-color: #242424;
+}
+
+.course-title {
+  font-size: 3rem;
+  font-family: "morabba";
+}
+
+.course-sub-title {
+  font-size: 1.5rem;
+  font-family: "morabba";
+}
+.course-paragraph {
+  font-size: 1rem;
+  font-family: "IRANYekanXFaNum";
+}
+
+.course-paragraph-ul {
+  padding-inline: 1%;
+  padding-block: 2%;
+  list-style-type: disc;
+}
+
+.course-img {
+  justify-content: center;
+}
+
+.course-input {
+  color: rgba(255, 255, 255, 0.87);
+  border: 1px solid #242424;
+  box-shadow: 2px 3px #242424;
+  max-height: 80px;
+  width: 100%;
+  padding: 2%;
+  direction: rtl;
+  margin-bottom: 10px;
+}
+.course-input > input {
+  font-family: "IRANYekanXFaNum";
+}
+.course-text {
+  font-size: 0.8rem;
+  font-family: "morabba";
+}
+.course-button {
+  padding: 10px !important;
+  border: 1px solid #242424 !important;
+  background-color: #242424 !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  font-family: "morabba";
+  box-shadow: 2px 3px #242424;
+}
